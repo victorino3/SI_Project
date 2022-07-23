@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Seguraca Informatica</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+  <link rel="stylesheet" title="html/css" href="./css/file1.css">
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+    }
+    /*put style in tag p*/
+    p{
+      font-size: 20px;
+      color: yellow !important;
+      font-family: 'Roboto', sans-serif;
+      font-weight: bold;
+      text-align: center;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="corpo">
+    <!--MENU E IDENCAO DE CODIGO COMPLETO-->
+
+      <div class="main">
+        <form class="abs">
+            
+            
+            <figcaption class="nomes">Fernando Gomes</figcaption>
+            
+
+           <div class="nato">
+            <input type="file" class="file" name="file2" id="upload-button" multiple required accept="image/*"><br>
+            <label for="upload-button">
+              <i class="fa-solid fa-upload"></i>&nbsp;
+              Choose Files
+            </label>
+            <button class="btn btn-danger btn-block" id="guarda">
+              Upload Files
+            </button>
+            <label for="guarda" id="guarda">
+              <i class="fa-solid fa-floppy-disk"></i>&nbsp;
+              <!--<button id="btn">Save</button>-->
+              Save
+              
+            </label>
+           </div>
+           
+        </form>
+      </div>
+    </div>
+
+    <!--Carregar Ficheiros e Fazer Download-->
+
+
+    
+  </div>
+
+  
+
+  <script>
+    let uploadButton = document.getElementById("upload-button")
+    uploadButton.onchange = () => {
+      let reader = new FileReader();
+      reader.readAsDataURL(uploadButton.files[0]);
+      console.log(uploadButton.files[0]);
+ 
+    }
+ </script>
+
+</body>
+</html>

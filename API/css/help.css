@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.corpo{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../img/seguranca_digital.jpg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+#logar{
+    width: 150px;
+    position: relative;
+    left: 498px;
+    padding: 10px;
+}
+ul li{
+    position: relative;
+    margin-right: 15px;
+    padding: 18px;
+}
+ul li a{
+    font-family: sans-serif;
+    color: aqua;
+}
+tab{
+    position: absolute;
+    width: 50%;
+    
+}
+.painel{
+    width: 340px;
+    position: absolute;
+    display: inline;
+    top: 210px;
+    float: left;
+
+}
+.painel1{
+    display: inline;
+    float: right;
+    width: 340px;
+    display: inline;
+    position: relative;
+    top: 130px;
+    right: 100px;
+}
+p{
+    color: white;
+    font-family: sans-serif;
+    padding: 10px;
+    text-align: justify;
+}
+.titulo{
+    color: aqua;
+    font-family: sans-serif;
+    padding: 5px;
+    margin: 5px;
+}
