@@ -14,7 +14,7 @@ if (pageAccessedByReload) {
         method: "POST", // // or "PUT" with the url changed to, e.g "https://reqres.in/api/users/2"
         headers: {
             'Content-type': 'application/json',
-            "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoidmljdG9yaW5vIiwiaWQiOiI2Mjc3YzlhOGQ5ZDU2NTQ0Yzg5Y2I5ZTMiLCJpYXQiOjE2NTM0OTg2NTV9.VqnYZSKG2o1__dgPkV_soNZD2Ui_dHgUYUMrsAXa83k",// Here you can add your token
+            "Authorization": ,// Here you can add your token
         },
         body: JSON.stringify({ code: mycode })
 
